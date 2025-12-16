@@ -31,9 +31,8 @@ sudo yum install bind-utils curl
 ## 使い方
 
 ```bash
-# ダウンロード
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/dns-to-cloudflare/main/dns-to-cloudflare.sh
-chmod +x dns-to-cloudflare.sh
+# 実行権限追加
+chmod +x ./dns-to-cloudflare.sh
 
 # 実行
 ./dns-to-cloudflare.sh example.com
