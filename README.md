@@ -15,18 +15,6 @@ dig を使って既存のDNSレコードを取得し、Cloudflare にインポ�
 
 - bash
 - dig (dnsutils / bind-utils)
-- curl
-
-```bash
-# Ubuntu/Debian
-sudo apt install dnsutils curl
-
-# macOS (digは標準インストール済み)
-brew install curl
-
-# CentOS/RHEL
-sudo yum install bind-utils curl
-```
 
 ## 使い方
 
